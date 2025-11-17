@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barbería y Peluquería Nenukos - Tu estilo, nuestra pasión. Cortes, afeitado profesional y más.">
+  <meta name="keywords" content="barbería, peluquería, cortes de pelo, afeitado, estilo masculino, Paraguay desde Venezuela.">
+  <meta name="author" content="Nenukos barber">
+
+  <title>Nenukos | Barbería & Peluquería</title>
+  <link rel="icon" href="images/Logo_Nenukos.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/Logo_Nenukos.jpg" alt="Nenukos Logo">
+      <h1>Nenukos</h1>
+    </div>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#" id="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+      </ul>
+      <div id="nav-toggle"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <video autoplay muted loop class="video-bg">
+      <source src="videos/barberia.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>Tu <span>estilo</span> empieza aquí</h2>
+      <p>Cortes, color y cuidado personalizados para cada cliente.</p>
+      <a href="#servicios" class="btn-primary">Ver Servicios</a>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <h2 class="section-title">Nuestros Servicios</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="images/corte.jpg" alt="Corte de cabello">
+        <h3>Cortes</h3>
+        <p>50.000 Gs</p>
+      </div>
+      <div class="service-card">
+        <img src="images/perfilado.jpg" alt="Corte y perfilado">
+        <h3>Corte y perfilado</h3>
+        <p>60.000 Gs</p>
+      </div>
+      <div class="service-card">
+        <img src="images/Rizos.jpg" alt="Rizos y corte">
+        <h3>Rizos permanentes (con corte incluido)</h3>
+        <p>350.000 Gs</p>
+      </div>
+      <div class="service-card">
+        <img src="images/decoloracion.jpg" alt="Teñido de puntas con corte">
+        <h3>Tratamiento decoloración</h3>
+        <p>250.000 Gs</p>
+      </div>
+      <div class="service-card">
+        <img src="images/facial.jpg" alt="Lavado facial premium">
+        <h3>Lavado facial</h3>
+        <p>40.000 Gs</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="gallery">
+    <h2 class="section-title">Nuestro Trabajo</h2>
+    <div class="gallery-grid">
+      <img src="images/cliente1.jpg" alt="Cliente 1">
+      <img src="images/cliente2.jpg" alt="Cliente 2">
+      <img src="images/cliente3.jpg" alt="Cliente 3">
+      <img src="images/cliente4.jpg" alt="Cliente 4">
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2 class="section-title">Contacto</h2>
+    <p>📍 Marcelina insfran, San Lorenzo, Paraguay</p>
+    <p>📞 +595 976 315042</p>
+    <p>🕒 Lunes a jueves: 09:00 - 21:00
+      <br>Viernes a sábado: 09:00 - 22:00
+      <br>Domingo: 09:00 - 15:00
+    </p>
+    <a href="https://wa.me/595976315042" target="_blank" class="btn-primary">Reservar por WhatsApp</a>
+  </section>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box">
+      <button id="closeSearch">×</button>
+      <h2>Buscar</h2>
+      <form>
+        <input type="text" placeholder="Escribe aquí...">
+        <button type="submit"><i class="fa-solid fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Nenukos Barbería & Peluquería</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
